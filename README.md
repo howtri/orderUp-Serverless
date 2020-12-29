@@ -8,7 +8,7 @@ A webapp to create and manage group food orders primarily using AWS API Gateway,
 The API GW routes will be linked with the Lambda PROD alias which will be linked to the most recent stable version
 
 DynamoDB schema
-primary key = id | owner | restauraunt | restauraunt_link | orders
+primary key = id | owner | restaurant | restaurant_link | orders
 orders for the start will be a json dump that will be extended to accept an order like
 {name : {main : meal, sides: sides}, name : {main : meal, sides: sides}}
 
