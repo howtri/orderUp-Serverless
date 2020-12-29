@@ -10,7 +10,7 @@ The API GW routes will be linked with the Lambda PROD alias which will be linked
 DynamoDB schema
 primary key = id | owner | restauraunt | restauraunt_link | orders
 orders for the start will be a json dump that will be extended to accept an order like
-{name : {main : meal, sides: sides}, <name> : {main : meal, sides: sides}}
+{name : {main : meal, sides: sides}, name : {main : meal, sides: sides}}
 
 May add some AWS CodePipeline experimentation in with CodeBuild and CodeDeploy. CICD with CW Events.
 
